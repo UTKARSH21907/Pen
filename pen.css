@@ -1,0 +1,27 @@
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+body{
+       min-height: 100vh;
+       overflow: hidden;
+      
+}
+.container{
+       position: relative;
+       display: flex;
+       flex-wrap: wrap;
+       transform-style:preserve-3d;
+       perspective: 1000px;
+}
+.container .ass
+{
+       position: relative;
+       width: 5px;
+       height: 5px;
+       background: #f00;
+       border: 1px solid rgb(0, 0, 0);
+       box-sizing: border-box;
+       transform-style: preserve-3d;
+}
